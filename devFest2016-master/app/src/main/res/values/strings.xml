@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DevFestLP2016</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- FragmentoMensaje   -->
+    <string name="mensaje_titulo">Envíanos un mensaje</string>
+    <string name="hint_mensaje">Escribe un mensaje</string>
+    <string name="nota_mensaje">Nota: Tu mensaje será respondido a la mayor brevedad posible.</string>
+    <string name="mensaje_nombre_competo">Nombre completo</string>
+    <string name="nombre_introducir">Introduzca su nombre</string>
+    <string name="mensaje_mas_de">Su mensaje debe contener más de 15 caracteres </string>
+    <!--    Informacion texto -->
+    <string name="informacionExpositor">Expositor</string>
+
+</resources>

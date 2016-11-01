@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titulo_mensaje"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:text="@string/mensaje_titulo"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/nota_mensaje"
+                android:textSize="16sp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/mensaje_nombre"
+                    style="@style/texto_registro"
+                    android:hint="@string/mensaje_nombre_competo"
+                    android:inputType="textCapWords" />
+            </android.support.design.widget.TextInputLayout>
+
+            <EditText
+                android:id="@+id/mensaje_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/darker_gray"
+                android:gravity="start|end"
+                android:hint="@string/hint_mensaje"
+                android:inputType="textMultiLine"
+                android:lines="10"
+                android:maxLines="10"
+                android:minLines="8"
+                android:scrollbars="vertical"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/mensaje_boton_enviar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Enviar"
+                android:textColor="@color/cardview_light_background" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
